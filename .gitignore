@@ -1,0 +1,22 @@
+# Node.js related
+/node_modules
+
+# Environment variables
+.env
+
+# Editor files
+.vscode/
+
+# macOS
+.DS_Store
+
+# PostgreSQL
+# Exclude database files if not using migrations/seeds directory structure
+/src/db/seeds/
+/src/db/migrations/
+
+# Logs
+*.log
+
+# Testing files
+coverage/
